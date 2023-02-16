@@ -23,7 +23,6 @@ _Bool insertList(ArrayList list,E element, int index){
 		list->capacity = newCapacity;
 	}
 	
-	
 	for (int i = list->size; i > index-1; --i){
 		list->arr[i] = list->arr[i-1];
 	}
