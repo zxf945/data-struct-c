@@ -8,7 +8,7 @@
     int g;
     static int init=0;
 #endif
-static int aa = 0xff;
+int aa = 0xff;
 char bb = 'a';
 short cc = 3;
 static char dd = 'b';
