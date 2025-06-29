@@ -8,10 +8,9 @@
     int g;
     static int init=0;
 #endif
-int aa = 0xff;
-
+static int aa = 0xff;
+char bb = 'a';
 short cc = 3;
-static char bb = 'a';
 static char dd = 'b';
 
 void testFunc(){
@@ -27,6 +26,6 @@ void testFunc(){
 
 int hello(){
     printf("hello%d",AA);
-    printf("bb=%d,dd=%d",bb,dd);
+    printf("aa=%d,bb=%d,dd=%d",aa,bb,dd);
     return 0;
 }
