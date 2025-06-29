@@ -13,6 +13,14 @@ char bb = 'a';
 short cc = 3;
 static char dd = 'b';
 
+typedef struct Person
+{
+    /* data */
+    int age;
+    int comming;
+} Person;
+
+
 void testFunc(){
     int b = 5;
     int a = 7;
