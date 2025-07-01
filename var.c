@@ -1,0 +1,18 @@
+int hour=23,min=0xa2;
+short a= 0b10101110;
+int b = 02713;
+long c = 0x1DAB83;
+int sec_bss;
+int se_b = 0;
+const int const_var =3;
+char letter = 't';
+char letter2 = 't'+2;
+unsigned char letter3 = 3;
+long time = 234566;
+long long time1 = 234234;
+short date=2;
+unsigned day =25;
+float price=2.5;
+double num=3.456;
+int num1 = 5*3;
+unsigned char num3 = 6+5;
