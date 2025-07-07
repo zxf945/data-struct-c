@@ -2,5 +2,6 @@
 #define HELLO_H
 extern int aa;
 extern char bb; 
-int hello();
+extern int hello();
+extern void test2();
 #endif

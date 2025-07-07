@@ -32,6 +32,13 @@ void testFunc(){
     }
 }
 
+void test2(){
+    int a;
+    printf("a=%d",a);
+    int c=a;
+    printf("c=%d",c);
+}
+
 int hello(){
     printf("hello%d",AA);
     printf("aa=%d,bb=%d,dd=%d",aa,bb,dd);

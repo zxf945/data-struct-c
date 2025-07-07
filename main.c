@@ -2,8 +2,15 @@
 #include"hello.h"
 int xx = 22;
 int	main(int argc,char *argv[]){
-    int c = aa;
-    printf("%d\n",c);
-    hello();
-    return 0;
+float a = 0.1;
+float b = 0.2;
+if (a+b >= 0.3)
+{
+    printf("a+b=0.3");
+
+}else{
+    printf("a+b!=0.3");
+}
+test2();
+return 0;
 }
