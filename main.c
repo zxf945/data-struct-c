@@ -11,6 +11,6 @@ if (a+b >= 0.3)
 }else{
     printf("a+b!=0.3");
 }
-test2();
+test3();
 return 0;
 }

@@ -39,6 +39,11 @@ void test2(){
     printf("c=%d",c);
 }
 
+void test3(){
+    int a;
+    printf("a=%d,sizeof-a=%d",a,sizeof(a));
+}
+
 int hello(){
     printf("hello%d",AA);
     printf("aa=%d,bb=%d,dd=%d",aa,bb,dd);
